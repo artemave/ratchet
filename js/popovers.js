@@ -76,7 +76,7 @@
     }
 
     popover.style.display = 'block';
-    popover.offsetHeight;
+    popover.offsetHeight;   // jshint ignore:line
     popover.classList.add('visible');
 
     popover.parentNode.appendChild(backdrop);
