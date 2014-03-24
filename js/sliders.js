@@ -7,7 +7,7 @@
  * Licensed under MIT (https://github.com/twbs/ratchet/blob/master/LICENSE)
  * ======================================================================== */
 
-!(function () {
+(function () {
   'use strict';
 
   var pageX;
@@ -133,4 +133,4 @@
   window.addEventListener('touchmove', onTouchMove);
   window.addEventListener('touchend', onTouchEnd);
 
-}());
+})();

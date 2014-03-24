@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/ratchet/blob/master/LICENSE)
  * ======================================================================== */
 
-!(function () {
+(function () {
   'use strict';
 
   var findModals = function (target) {
@@ -38,4 +38,4 @@
       event.preventDefault(); // prevents rewriting url (apps can still use hash values in url)
     }
   });
-}());
+})();

@@ -9,7 +9,7 @@
 
 /* global _gaq: true */
 
-!(function () {
+(function () {
   'use strict';
 
   var noop = function () {};
@@ -490,4 +490,4 @@
   window.addEventListener('popstate', popstate);
   window.PUSH = PUSH;
 
-}());
+})();

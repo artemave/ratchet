@@ -270,4 +270,4 @@
 
   window.FingerBlast = FingerBlast;
 
-}());
+})();
