@@ -160,13 +160,13 @@
       var onEventName = 'on' + eventName;
 
       if (onEventName in this.target) {
-        console.warn('Converting `' + onEventName + '` property to event listener.', this.target);
+        window.console.warn('Converting `' + onEventName + '` property to event listener.', this.target);
         this.target.addEventListener(eventName, this.target[onEventName], false);
         delete this.target[onEventName];
       }
 
       if (this.target.hasAttribute(onEventName)) {
-        console.warn('Converting `' + onEventName + '` attribute to event listener.', this.target);
+        window.console.warn('Converting `' + onEventName + '` attribute to event listener.', this.target);
         var handler = new GLOBAL.Function('event', this.target.getAttribute(onEventName));
         this.target.addEventListener(eventName, handler, false);
         this.target.removeAttribute(onEventName);

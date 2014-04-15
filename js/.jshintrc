@@ -1,7 +1,6 @@
 {
   "bitwise" : true,
   "browser" : true,
-  "devel"   : true,
   "eqeqeq"  : true,
   "forin"   : true,
   "freeze"  : true,
